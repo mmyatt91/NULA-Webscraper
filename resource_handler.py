@@ -40,17 +40,8 @@ def get_resources(category_id):
             a_tags = link['href']
             print(a_tags)
             resourceList.append(a_tags)
-    
-    # for resource in resources:
-    #     links = resource.find_all('a')
-    #     for link in links:
-    #         a_tags = link['href']
-    #         for a_tag in a_tags:
-    #             weblink = a_tag
-    #             print(weblink)
-    #             resourceList.append(weblink)
 
-    return '\n'.join(resourceList)
+    return resourceList
 
 
 

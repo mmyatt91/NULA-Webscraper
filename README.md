@@ -9,7 +9,7 @@ A web application that allows users to retrieve the individual resource weblinks
 - Backend: 
 Python, Flask
 - Frontend: 
-Bootstrap, jQuery, 
+Bootstrap, jQuery, Jinga
 - Libraries:
 BeauitfulSoup
 - API/Website Used for Scrapping: 

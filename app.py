@@ -8,22 +8,24 @@ app = Flask (__name__)
 app.config['SECRET_KEY'] = "4th_try"
 debug = DebugToolbarExtension(app)
 
-@app.route("/")
+@app.route("/", methods=[ "GET", "POST"])
 def homepage():
     """Show homepage and display Resource dropdown menu"""
 
     form = ResourceMenuForm()
 
     if form.validate_on_submit():
-        return redirect("/resources/<int:category_id>")
+        print(form.resource.data)
+        category_id = int(form.resource.data)
+        return redirect(f"/resources/{category_id}")
         
     else: 
         return render_template("resource_menu.html", form=form)
 
 @app.route("/resources/<int:category_id>", methods=["GET", "POST"])
-def show_resource(category_id):
+def show_resources(category_id):
     """Show list resources of category"""
 
     resourceList = get_resources(category_id)
-    
+
     return render_template("resource_list.html", resourceList=resourceList)

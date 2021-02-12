@@ -14,7 +14,7 @@
 
 <div class="text-center">
 
-<form action="/show_resource" class="text-center" id="resource-menu-form" method="GET">
+<form action="/" class="text-center" id="resource-menu-form" method="POST" >
   {{ form.hidden_tag() }} <!--add type=hidden form fields -->
 
   {% for field in form
@@ -32,8 +32,11 @@
   {% endfor %}
 
   <div>
-    <a class="btn btn-secondary text-white bg-dark" 
-    href="/resource/<int:category_id" role="button">GO</a>
+    <button class="btn btn-secondary text-white bg-dark" type="submit">
+      GO
+    </button>
+    <!-- <a class="btn btn-secondary text-white bg-dark" 
+    href="/resources/<int:category_id" role="button">GO</a> -->
   </div>
 
 </form>

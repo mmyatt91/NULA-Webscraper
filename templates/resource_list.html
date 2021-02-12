@@ -7,8 +7,15 @@
 
 <div class="text-center">
 
-<h2> Check Out These Links!</h2>
-<h3> {{ resourceList }} </h3>
+<h2> Check Out These Links for  {{ category_name }}!</h2>
+
+<!-- <h3> {{ resourceList }} </h3> -->
+<ul>
+    {% for resource in resourceList %}
+        <li><a href="{{ resource }}">{{ resource }}</a><li>
+    {% endfor %}
+</ul>
+
 
 </div>
 
