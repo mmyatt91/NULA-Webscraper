@@ -3,7 +3,7 @@
 Webscrapper for the NAMI Urban Los Angeles Resource Page
 
 ## Overview: 
-A web application that allows users to retrieve the resources from the NAMI Urban Los Angeles Resource webpage using the resource categories. 
+A web application that allows users to retrieve the individual resource weblinks from the NAMI Urban Los Angeles Resource webpage using resource categories. 
 
 ## Tech Stack:
 - Backend: 
