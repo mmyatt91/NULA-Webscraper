@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %} NAMI Urban LA Resource Page{% endblock %}
+
+{% block content %}
+
+<div class="text-center"> 
+  <img src="../static/img/NAMI_logo.png">
+</div>
+
+{% for msg in get_flashed_messages() %}
+  <div>{{ msg }}</div>
+{% endfor %}
+
+<div class="text-center">
+
+<form action="/show_resource" class="text-center" id="resource-menu-form" method="GET">
+  {{ form.hidden_tag() }} <!--add type=hidden form fields -->
+
+  {% for field in form
+         if field.widget.input_type != 'hidden' %}
+
+    <p>
+      {{ field.label }}
+      {{ field }}
+
+      {% for error in field.errors %}
+        {{ error }}
+      {% endfor %}
+    </p>
+
+  {% endfor %}
+
+  <div>
+    <a class="btn btn-secondary text-white bg-dark" 
+    href="/resource/<int:category_id" role="button">GO</a>
+  </div>
+
+</form>
+
+</div>
+
+{% endblock %}
