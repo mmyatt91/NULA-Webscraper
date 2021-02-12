@@ -6,10 +6,14 @@ Webscrapper for the NAMI Urban Los Angeles Resource Page
 A web application that allows users to retrieve the resources from the NAMI Urban Los Angeles Resource webpage using the resource categories. 
 
 ## Tech Stack:
-Backend: Python, Flask
-Frontend: Bootstrap, jQuery, 
-Libraries:BeauitfulSoup
-API/Website Used for Scrapping: NAMI Urban LA Resource Page: https://www.namiurbanla.org/resources
+- Backend: 
+Python, Flask
+- Frontend: 
+Bootstrap, jQuery, 
+- Libraries:
+BeauitfulSoup
+- API/Website Used for Scrapping: 
+NAMI Urban LA Resource Page: https://www.namiurbanla.org/resources
 
 ## App Features Include:
 - User can choose a resource category from the dropdown menu, featured on the homepage
