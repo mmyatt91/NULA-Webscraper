@@ -13,7 +13,7 @@ Bootstrap, jQuery,
 - Libraries:
 BeauitfulSoup
 - API/Website Used for Scrapping: 
-NAMI Urban LA Resource Page: https://www.namiurbanla.org/resources
+https://www.namiurbanla.org/resources
 
 ## App Features Include:
 - User can choose a resource category from the dropdown menu, featured on the homepage
