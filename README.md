@@ -42,7 +42,7 @@ NAMI Urban LA Resource Page: https://www.namiurbanla.org/resources
     $ flask run
 ```
 
-Open localhost:5000 on browser
+Open localhost:5000 on Browser
 
 
 
