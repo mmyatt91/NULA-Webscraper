@@ -38,8 +38,11 @@ https://www.namiurbanla.org/resources
     $ flask run
 ```
 
-Open localhost:5000 on Browser
+- Open localhost:5000 on Browser
 
+## App Features Include:
+- User can choose a resource category from the dropdown menu, featured on the homepage
+- For chosen category, a list of weblinks will be rendered onto the following page
 
 ## Original NULA Resource Page vs. NULA Resource Search Engine App
 
@@ -51,8 +54,3 @@ Open localhost:5000 on Browser
 
 - Original NULA Resource Page:
 ![Alt text](/static/img/original_site.png?raw=true "Original NULA Resource Page")
-
-## App Features Include:
-- User can choose a resource category from the dropdown menu, featured on the homepage
-- For chosen category, a list of weblinks will be rendered onto the following page
-
