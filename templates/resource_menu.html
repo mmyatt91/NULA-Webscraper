@@ -4,15 +4,13 @@
 
 {% block content %}
 
-<div class="text-center"> 
-  <img src="../static/img/NAMI_logo.png">
-</div>
+<h2 class="text-center" style="margin: 2%">Welcome!</h2> 
 
 {% for msg in get_flashed_messages() %}
   <div>{{ msg }}</div>
 {% endfor %}
 
-<div class="text-center">
+<div class="text-center" style="margin: 2%;">
 
 <form action="/" class="text-center" id="resource-menu-form" method="POST" >
   {{ form.hidden_tag() }} <!--add type=hidden form fields -->
@@ -32,7 +30,7 @@
   {% endfor %}
 
   <div>
-    <button class="btn btn-secondary text-white bg-dark" type="submit">
+    <button class="btn btn-secondary text-white bg-dark" type="submit" style="margin: 2%">
       GO
     </button>
     <!-- <a class="btn btn-secondary text-white bg-dark" 
@@ -40,7 +38,6 @@
   </div>
 
 </form>
-
 </div>
 
 {% endblock %}

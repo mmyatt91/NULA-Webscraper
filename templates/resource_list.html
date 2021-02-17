@@ -4,22 +4,21 @@
 
 {% block content %}
 
+<div class="text-center" style="border: black;">
 
-<div class="text-center">
-
-<h2> Check Out These Links for  {{ category_name }}!</h2>
+<b> Check Out These Links for  {{ category_name }}:</b>
 
 <!-- <h3> {{ resourceList }} </h3> -->
-<ul>
+<ul style="list-style-type: none;">
     {% for resource in resourceList %}
-        <li><a href="{{ resource }}">{{ resource }}</a><li>
+        <li style="list-style-type: none;"><a href="{{ resource }}">{{ resource }}</a><li>
     {% endfor %}
 </ul>
 
 
 </div>
 
-<div class="text-center">
+<div class="text-center" style="margin: 2%">
     <a class="btn btn-secondary text-white bg-dark" 
     href="/" role="button"> Back to Homepage</a>
 </div>

@@ -15,8 +15,9 @@ def homepage():
     form = ResourceMenuForm()
 
     if form.validate_on_submit():
-        print(form.resource.data)
+        # category_name = form.resource.choices[0]
         category_id = int(form.resource.data)
+        # category_name = form.resource.choices[category_id][1]
         return redirect(f"/resources/{category_id}")
         
     else: 
@@ -26,6 +27,8 @@ def homepage():
 def show_resources(category_id):
     """Show list resources of category"""
 
-    resourceList = get_resources(category_id)
+    form = ResourceMenuForm()
 
-    return render_template("resource_list.html", resourceList=resourceList)
+    resourceList = get_resources(category_id)
+    category_name = form.resource.choices[category_id][1]
+    return render_template("resource_list.html", resourceList=resourceList, category_name=category_name)

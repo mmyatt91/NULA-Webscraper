@@ -19,4 +19,4 @@ class ResourceMenuForm(FlaskForm):
     """Form for choosing a resource from 
     dropdown menu"""
 
-    resource = SelectField("Select A Resource:", choices = CATEGORIES)
+    resource = SelectField("Select a Resource:", choices = CATEGORIES)
