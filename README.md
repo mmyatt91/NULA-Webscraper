@@ -41,15 +41,15 @@ https://www.namiurbanla.org/resources
 Open localhost:5000 on Browser
 
 
-Original NULA Resource Page vs. NULA Resource Search Engine App
+## Original NULA Resource Page vs. NULA Resource Search Engine App
 
-NULA Webscrapper App - Homepage:
+- NULA Webscrapper App - Homepage:
 ![Alt text](/static/img/homepage.png?raw=true "App Homepage")
 
-NULA Webscrapper App - Resource Page:
+- NULA Webscrapper App - Resource Page:
 ![Alt text](/static/img/resource_page.png?raw=true "App Resource Page")
 
-Original NULA Resource Page:
+- Original NULA Resource Page:
 ![Alt text](/static/img/original_site.png?raw=true "Original NULA Resource Page")
 
 ## App Features Include:
