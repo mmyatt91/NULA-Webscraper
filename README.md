@@ -15,10 +15,6 @@ BeauitfulSoup
 - API/Website Used for Scrapping: 
 https://www.namiurbanla.org/resources
 
-## App Features Include:
-- User can choose a resource category from the dropdown menu, featured on the homepage
-- For chosen category, a list of weblinks will be rendered onto the following page
-
 ## Setup/Installation:
 - Create/Activate Virtual environment:
 ```bash
@@ -44,13 +40,19 @@ https://www.namiurbanla.org/resources
 
 Open localhost:5000 on Browser
 
+
+Original NULA Resource Page vs. NULA Resource Search Engine App
+
 NULA Webscrapper App - Homepage:
 ![Alt text](/static/img/homepage.png?raw=true "App Homepage")
 
 NULA Webscrapper App - Resource Page:
 ![Alt text](/static/img/resource_page.png?raw=true "App Resource Page")
 
+Original NULA Resource Page:
+![Alt text](/static/img/original_site.png?raw=true "Original NULA Resource Page")
 
-
-
+## App Features Include:
+- User can choose a resource category from the dropdown menu, featured on the homepage
+- For chosen category, a list of weblinks will be rendered onto the following page
 
