@@ -2,6 +2,8 @@
 
 Webscrapper for the NAMI Urban Los Angeles Resource Page
 
+See App on Heroku: https://nula-webscrapper-app.herokuapp.com/
+
 ## Overview: 
 A web application that allows users to retrieve the individual resource weblinks from the NAMI Urban Los Angeles Resource webpage using resource categories. 
 
