@@ -5,7 +5,7 @@ Webscrapper for the NAMI Urban Los Angeles Resource Page
 See App on Heroku: https://nula-search-engine-app.herokuapp.com/
 
 ## Overview: 
-A web application that allows users to retrieve the individual resource weblinks from the NAMI Urban Los Angeles Resource webpage using resource categories. 
+Utilizing web scraping and the NAMI Urban Los Angeles (NULA) website, I created a search engine application that allows users to more efficiently access and retrieve the individual resource web links featured on the NULA "Resource" web page using individual resouce categories. 
 
 ## Tech Stack:
 - Backend: 
