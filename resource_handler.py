@@ -1,10 +1,5 @@
-import json
 import requests
-import urllib.request
-import time
-
 from bs4 import BeautifulSoup
-from forms import ResourceMenuForm
 
 # class ResourceHandler:
 """Access the NULA Resource Page via BeautifulSoup"""
