@@ -10,18 +10,6 @@ from forms import ResourceMenuForm
 """Access the NULA Resource Page via BeautifulSoup"""
 
 URL = 'https://www.namiurbanla.org/resources'
-CATEGORIES = ['Crisis Support, Helplines & Warmlines',
-            'Organizations & Campaigns',
-            'Mental Health, Rehab & Counseling Services',
-            'Psychiatric Inpatient Services',
-            'Outpatient Clinics & Wellness Centers',
-            'Urgent Care Centers',
-            'Support Groups & Education Classes',
-            'Transitional Age Youth Drop-In Centers & Services',
-            'Benefits Assistance, Housing, Shelters & Food',
-            'Peer Centers & Respites',
-            'Apps',
-            'Holistic Health']
 
 def get_resources(category_id):
 
